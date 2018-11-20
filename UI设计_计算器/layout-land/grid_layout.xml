@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:rowCount="5">
+
+
+    <TextView
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:text="计算器"
+        android:textSize="20dip"
+        />
+
+    <TextView
+        android:id="@+id/AnswerText"
+        android:layout_columnSpan="4"
+        android:layout_gravity="right"
+        android:textSize="30dip"
+
+        />
+
+    <Button
+        android:id="@+id/ClearButton"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="AC"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/NegationButton"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="+/-"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/PercentButton"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="%"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/DivideButton"
+        android:layout_column="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="/"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button7"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="7"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button8"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="8"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button9"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="9"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/MultiplyButton"
+        android:layout_column="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="*"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button4"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="4"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button5"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="5"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button6"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="6"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/MinusButton"
+        android:layout_column="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="-"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_column="0"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="1"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_column="1"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="2"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="3"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/AddButton"
+        android:layout_column="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="+"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/Button0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="0"
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/DotButton"
+        android:layout_column="2"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="."
+        android:textSize="20dip"
+        />
+
+    <Button
+        android:id="@+id/AnswerButton"
+        android:layout_column="3"
+        android:layout_gravity="fill_horizontal"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:text="="
+        android:textSize="20dip"
+        />
+
+</GridLayout>
